@@ -21,3 +21,21 @@ Embrace your creativity and personalize this project to craft a solution that un
 - **Sensitive Information:** If your implementation involves sensitive information, you are not required to submit a public repository. Instead, a detailed review of your project through a Loom video is acceptable, where you can demonstrate the functionality and discuss the technologies used without exposing confidential data.
 
 ---
+
+## Project Update:
+### Release Notes Generation
+- Added `fetch_release_notes_data.py` to fetch PR details and generate release notes between specified tags.
+- Implemented functions to fetch PR details, PR diffs, and release notes data using GitHub API.
+- Updated `main.py` to fetch release notes data and integrate with OpenAI for generating release notes.
+- Created `upload.py` to upload documents to Pinecone vector database for efficient retrieval.
+- Prepared documents for upload by splitting them into smaller chunks.
+
+### Commit Messages
+- AI-Generated release notes.
+
+### Code Changes
+- Added functions to fetch PR details, PR diffs, and release notes data from GitHub.
+- Updated `main.py` to fetch release notes data and integrate with OpenAI for generating release notes.
+- Implemented document upload functionality in `upload.py` for Pinecone vector store.
+
+Consider the above updates and code changes for the latest project enhancements.
